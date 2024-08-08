@@ -1,0 +1,41 @@
+# Ignorar archivos y directorios específicos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Ignorar archivos y directorios específicos de entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# Ignorar archivos de configuración y metadatos de VSCode
+.vscode/
+*.code-workspace
+
+# Ignorar archivos de salida
+output.bmp
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de base de datos locales
+*.sqlite3
+
+# Ignorar archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignorar archivos de configuración y metadatos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración de entorno
+.env
